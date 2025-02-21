@@ -13,6 +13,13 @@ body {
     padding: 10em !important;
 }
 
+footer {
+    background-color: red !important;
+    text-align: center !important;
+    color: white !important;
+    font-size: 20px !important;
+}
+
 a {
     text-decoration: none !important;
     color: white !important;
@@ -24,6 +31,9 @@ a {
     padding: 10px !important;
     margin: 50px !important;
     width: 80% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os elementos horizontalmente */
 }
 
 .info{
@@ -34,13 +44,30 @@ a {
     color: red !important;
     font-family: 'Arial Black', sans-serif !important;
 }
-.cards{
-   
+.card{
+    text-align: center; /* Centraliza o conteúdo */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centraliza os cards */
+    gap: 20px; /* Espaço entre os cards */
+    width: 100%; /* Garante que ocupe a largura total */
+    padding: 1em !important;
+    margin: 10px !important;
 }
 
-footer {
-    background-color: red !important;
-    text-align: center !important;
-    color: white !important;
-    font-size: 20px !important;
+.img_card{
+    display: block;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    width: 90px; /* Garante que a imagem se ajuste ao card */
+    max-width: 150px; /* Ajuste o tamanho conforme necessário */
+}
+.s-name{
+    padding: 0.5em !important;
+}
+
+.main-home{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente (caso tenha altura definida) */
+    
 }
