@@ -10,7 +10,7 @@ body {
     background-size: cover !important;/* Ajusta a imagem para cobrir toda a tela */
     background-position: center !important;/* Centraliza a imagem */
     background-repeat: no-repeat !important;/* Evita repetição da imagem */
-    padding: 10em !important;
+    padding: 5em !important;
 }
 
 footer {
@@ -28,9 +28,9 @@ a {
 .margim-border {
     background: white !important;
     border-radius: 15px !important;
-    padding: 10px !important;
+    padding: 1.9px !important;
     margin: 50px !important;
-    width: 80% !important;
+    width: 85% !important;
     display: flex;
     flex-direction: column;
     align-items: center; /* Centraliza os elementos horizontalmente */
@@ -38,7 +38,7 @@ a {
 
 .info{
     text-align: center !important;
-    font-size: 25px !important;
+    font-size: 18px !important;
 }
 .info-title{
     color: red !important;
@@ -51,23 +51,36 @@ a {
     justify-content: center; /* Centraliza os cards */
     gap: 20px; /* Espaço entre os cards */
     width: 100%; /* Garante que ocupe a largura total */
-    padding: 1em !important;
+    padding: 0.5em !important;
     margin: 10px !important;
 }
 
 .img_card{
     display: block;
     margin: 0 auto; /* Centraliza horizontalmente */
-    width: 90px; /* Garante que a imagem se ajuste ao card */
+    width: 95px; /* Garante que a imagem se ajuste ao card */
     max-width: 150px; /* Ajuste o tamanho conforme necessário */
 }
 .s-name{
     padding: 0.5em !important;
+
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Faz o título ficar no final do card-body */
+    align-items: center; /* Centraliza o texto */
+    height: 10%; /* Faz com que ocupe toda a altura disponível */
 }
 
 .main-home{
     display: flex;
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente (caso tenha altura definida) */
+    
+}
+
+@media (min-width: 200px) and (max-width: 1024px){
     
 }
