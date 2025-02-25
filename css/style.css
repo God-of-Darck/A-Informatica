@@ -6,7 +6,7 @@ header {
 }
 
 body {
-    background-image: url('/img/backgroud.png') !important; /* Caminho da imagem */
+    background-image: url('https://i.pinimg.com/1200x/0f/5b/2f/0f5b2f0b43da8c1956a0fdc3282e525b.jpg') !important; /* Caminho da imagem */
     background-size: cover !important;/* Ajusta a imagem para cobrir toda a tela */
     background-position: center !important;/* Centraliza a imagem */
     background-repeat: no-repeat !important;/* Evita repetição da imagem */
